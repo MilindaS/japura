@@ -36,11 +36,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: 0;
 	padding: 0;
 	vertical-align: baseline;
+	color:#FFF;
+
 }
 html {
 	overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	background: #14242C;
 }
 article,
 aside,
@@ -117,7 +120,7 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 18px;
-	color: #444444;
+	color: #FFF;
 	font-weight: normal;
 	font-family: 'Roboto Slab', sans-serif;
 }
@@ -352,7 +355,7 @@ button:hover {
 /* =LINKS
 ----------------------------------------------- */
 a {
-	color: #39548B;
+	color: #FFF;
 	text-decoration: none;
 }
 a:focus, a:active, a:hover {
@@ -456,7 +459,7 @@ body {
 	max-width: 1180px;
 	margin: 0 auto;
 	background-color: #FFFFFF;
-	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	
 	border-top: 3px solid #39548B;
 }
 .wide {
@@ -476,8 +479,8 @@ body {
 #masthead {
 }
 #header-text-nav-container {
-	border-bottom: 1px solid #F2F2F2;
-	background-color: #F8F8F8;
+	border-bottom: 1px solid none;
+	background-color: #14242C;
 }
 #header-text-nav-wrap {
 	padding: 30px 0 40px;
@@ -499,7 +502,7 @@ body {
 	padding: 10px 20px 0 0;
 }
 #site-title a {
-	color: #555555;
+	color: #FFF;
 	font-size: 36px;
 }
 h1#site-title {
@@ -567,16 +570,17 @@ nav li > ol {
 }
 .main-navigation {
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: none;
 }
 .main-navigation li {
 	float: left;
 	position: relative;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
+
 }
 .main-navigation a {
-	color: #444444;
+	color: #FFF;
 	display: block;
 	float: left;
 	font-size: 16px;
@@ -593,7 +597,7 @@ li.default-menu {
 .main-navigation ul li.current_page_item a,
 .main-navigation ul li:hover > a {
 	color: #FFFFFF;
-	background-color: #39548B;
+	background-color: red;
 }
 
 /* =DROP DOWN
@@ -605,9 +609,9 @@ li.default-menu {
 .main-navigation ul ul ul ul li:hover ul ul {
 	display:none;
 	z-index: 100;
-	border-left: 1px solid #F8F8F8;
-	border-right: 1px solid #F8F8F8;
-	border-bottom: 1px solid #F8F8F8;
+	border-left: 1px solid none;
+	border-right: 1px solid none;
+	border-bottom: 1px solid  none;
 	margin-left: -1px;
 }
 .main-navigation ul li:hover ul,
@@ -624,7 +628,8 @@ li.default-menu {
 }
 .main-navigation ul li ul li {
 	float: none;
-	border-bottom: 1px solid #F8F8F8;
+	border-bottom: 1px solid none;
+	color:#FFF;
 }
 .main-navigation ul li ul li:last-child {
 	float: none;
@@ -641,8 +646,8 @@ li.default-menu {
 	font-weight: 300;
 	height: 100%;
 	padding: 8px 14px;
-	color: #444444;
-	background-color: #FFFFFF;
+	color: #FFF;
+	background-color: #0B475F;
 }
 .main-navigation ul li ul li a:hover,
 .main-navigation ul li ul li:hover > a,
@@ -696,7 +701,7 @@ li.default-menu {
 }
 .main-small-navigation a {
   display: block;
-  color: #444444;
+  color: #FFF;
   padding: 10px 20px;
   text-decoration: none;
   border-bottom: 1px solid #F8F8F8;
@@ -734,7 +739,7 @@ li.default-menu {
 	display: none;
 }
 .footer-menu a {
-	color: #666666;
+	color: #FFF;
 	display: block;
 	float: left;
 	font-size: 10px;
@@ -748,7 +753,7 @@ li.default-menu {
 .footer-menu ul li.current-menu-ancestor a,
 .footer-menu ul li.current_page_item a,
 .footer-menu ul li:hover > a {
-	color: #39548B;
+	color: #FFF;
 }
 
 /* =FEATURED SLIDER
@@ -898,6 +903,7 @@ a.slide-next:hover {
 }
 #main {
 	padding-top: 50px;
+	background:#16394A;
 }
 
 /* =POST FORMAT
@@ -1009,7 +1015,7 @@ a.slide-next:hover {
 /* =WIDGET FEATURED SINGLE POST
 ----------------------------------------------- */
 #secondary .widget_featured_single_post h3.widget-title a {
-	color: #444444;
+	color: #FFF;
 }
 #secondary .widget_featured_single_post h3.widget-title a:hover {
 	text-decoration: none;
@@ -1034,7 +1040,7 @@ a.slide-next:hover {
 	padding-bottom: 10px;
 }
 .widget_image_service_block .entry-title a {
-	color: #444444;
+	color: #FFF;
 }
 .widget_image_service_block .entry-title a:hover {
 	color: #39548B;
@@ -1284,7 +1290,7 @@ a.slide-next:hover {
 }
 .nav-previous a,
 .nav-next a {
-   color: #39548B;
+   color: #FFF;
 	cursor: pointer;
    font-size: 16px;
 }
@@ -1560,7 +1566,7 @@ a.slide-next:hover {
 ----------------------------------------------- */
 .footer-socket-wrapper {
 	padding: 10px 0px;
-	background-color: #F8F8F8;
+	background-color: #14242C;
 	border-top: 3px solid #39548B;
 }
 .footer-socket-area {
@@ -1658,7 +1664,7 @@ a#scroll-up:hover {
 	line-height: 32px;
 }
 .post .entry-title a {
-	color: #444444;
+	color: #FFF;
 	transition: all 0.3s ease 0s
 }
 .post .entry-title a:hover {
