@@ -1,0 +1,1 @@
+rsync -avz --exclude-from '/home/milinda/Projects/Japura/exclude-list.txt' /home/milinda/Projects/Japura/ root@104.236.67.123:/var/www/webshop

@@ -1,0 +1,3 @@
+.rsync.txt
+.git
+.gitignore
